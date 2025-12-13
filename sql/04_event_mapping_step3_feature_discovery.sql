@@ -1,5 +1,7 @@
 Out of 603 onboarded users, 201 users proceeded to explore at least one feature.
 
+-- Step 3: Feature Discovery (user-level)
+  
 CREATE OR REPLACE TABLE
 `psyched-hook-481007-m9.taskflowhq_analytics.step3_feature_discovery_users` AS
 SELECT
