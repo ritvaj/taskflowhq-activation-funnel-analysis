@@ -33,13 +33,13 @@ Although many users open the app and proceed through onboarding, a large proport
 
 Why Activation Matters
 
-Retention
+Retention:
 Users who experience value early are more likely to return and continue using the product.
 
-Revenue Potential
+Revenue Potential:
 Activated users are more likely to upgrade, expand usage, or bring additional team members into the product.
 
-Product–Market Fit
+Product–Market Fit:
 Difficulty reaching activation often signals unclear value, high friction, or misalignment between user expectations and product design.
 
 ---
