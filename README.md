@@ -194,3 +194,15 @@ Measures the percentage of onboarded users who return three days after onboardin
 
 **Interpretation**  
 Retention drops sharply by Day 3, indicating that most users fail to build a short-term habit after onboarding. This suggests that initial activation alone is not sufficient to sustain engagement, and that the product may lack compelling follow-up value or reminders shortly after first use.
+
+### Day 7 Retention
+
+Measures the percentage of onboarded users who return seven days after onboarding and generate any event.
+
+- Onboarded Users: 603  
+- Day 7 Retained Users: 5  
+- Day 7 Retention Rate: **0.8%**
+
+**Interpretation**  
+Day-7 retention is extremely low, indicating that while a small fraction of users return shortly after onboarding, very few develop sustained engagement over a full week. This suggests weak habit formation and highlights the need for stronger post-activation value reinforcement.
+
