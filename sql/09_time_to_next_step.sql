@@ -1,28 +1,14 @@
--- Time from Onboarding to Feature Discovery (per user)
-WITH onboarding AS (
-  SELECT
-    user_pseudo_id,
-    onboarding_ts
-  FROM `psyched-hook-481007-m9.taskflowhq_analytics.step2_onboarding_users`
-),
-
-feature_discovery AS (
-  SELECT
-    user_pseudo_id,
-    MIN(feature_discovery_ts) AS feature_ts
-  FROM `psyched-hook-481007-m9.taskflowhq_analytics.step3_feature_discovery_users`
-  GROUP BY user_pseudo_id
-)
-
+-- Time from Onboarding to Feature Discovery (per user) --> Without CTE version
 SELECT
   APPROX_QUANTILES(
-    (feature_ts - onboarding_ts) / 1e6,
+    (f.feature_discovery_ts - o.onboarding_ts) / 1e6,
     100
   )[OFFSET(50)] AS median_seconds_onboarding_to_feature
-FROM onboarding o
-JOIN feature_discovery f
+FROM `psyched-hook-481007-m9.taskflowhq_analytics.step2_onboarding_users` o
+JOIN `psyched-hook-481007-m9.taskflowhq_analytics.step3_feature_discovery_users` f
   ON o.user_pseudo_id = f.user_pseudo_id
-WHERE feature_ts > onboarding_ts;
+WHERE f.feature_discovery_ts > o.onboarding_ts;
+
 
 -- Time from Feature Discovery to Activation
 WITH feature_discovery AS (
