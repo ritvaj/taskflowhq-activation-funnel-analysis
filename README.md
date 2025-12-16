@@ -161,7 +161,7 @@ Users who progress beyond onboarding typically discover a feature quickly, indic
 
 ---
 
-# taskflowhq-onboarding-activation-funnel-analysis
+## Structure
 
 ```
 taskflowhq-onboarding-activation-funnel-analysis/
