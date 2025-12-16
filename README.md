@@ -244,3 +244,12 @@ While all users in this group ultimately activated, a majority required substant
 This segmentation highlights opportunities to streamline post-discovery flows and reduce time-to-value for slower users.
 
 
+## Note: delete later
+
+Funnel Refinement Note
+
+An intermediate “Start Core Action” step (mapped to add_to_cart) was initially included to represent the transition from intent to execution. However, exploratory analysis revealed that for the activated cohort, this event was rarely observed and frequently bypassed entirely, with users moving directly from feature discovery (view_item) to activation (purchase).
+
+As a result, the intermediate step failed to provide meaningful behavioral separation. Its inclusion introduced systematic NULLs, added no explanatory power to activation pacing, and risked creating an artificial bottleneck not supported by actual user behavior.
+
+To preserve analytical integrity and ensure the funnel reflected observed user journeys rather than assumed ones, the step was intentionally removed. The refined funnel therefore focuses on the transitions that meaningfully influenced activation timing and decision-making.
