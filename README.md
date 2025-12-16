@@ -244,6 +244,27 @@ While all users in this group ultimately activated, a majority required substant
 This segmentation highlights opportunities to streamline post-discovery flows and reduce time-to-value for slower users.
 
 
+🔍 Segment-Level Activation Pacing Analysis
+
+To understand why some users activate slower than others, a segment-level pacing analysis was performed on activated users only, separating them into Fast and Slow Activators based on post–feature discovery activation time.
+
+Funnel Refinement Note
+
+An intermediate “Start Core Action” step (mapped to add_to_cart) was initially considered. However, exploratory analysis showed that most activated users progressed directly from feature discovery (view_item) to activation (purchase), with minimal interaction at the intermediate step. Including this step introduced systematic NULLs and did not contribute meaningful behavioral separation. To avoid artificial funnel complexity and reflect observed user journeys, the funnel was intentionally simplified.
+
+Median Time Between Funnel Steps (seconds)
+Activation Segment	App Open → Onboarding	Onboarding → Feature Discovery	Feature Discovery → Activation
+Fast Activator	36.5	62.6	177.1
+Slow Activator	63.3	95.4	909.9
+Key Insight
+
+Activation delays are not evenly distributed across the funnel. While early steps show only minor differences between Fast and Slow activators, the time from feature discovery to activation is nearly 5× longer for Slow activators. This indicates that activation friction is driven primarily by hesitation after value exposure, rather than onboarding or navigation issues.
+
+Implication
+
+Product experiments aimed at improving activation should focus on the post-discovery experience — such as reinforcing value, clarifying next steps, or reducing perceived commitment — rather than optimizing early onboarding flows.
+
+
 ## Note: delete later
 
 Funnel Refinement Note
