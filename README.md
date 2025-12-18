@@ -1,4 +1,4 @@
-# TaskFlowHQ - Diagnosing Activation Funnel Drop-Off & Hesitation in a B2B SaaS Product
+# TaskFlowHQ: Diagnosing Activation Funnel Drop-Off & Hesitation
 
 
 ## Product Scenario
