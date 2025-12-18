@@ -1,4 +1,4 @@
-# B2B SaaS Productivity Tool – User Onboarding & Activation Funnel Drop-Off Analysis
+# TaskFlowHQ - Diagnosing Activation Funnel Drop-Off & Hesitation in a B2B SaaS Product
 
 
 ## Product Scenario
