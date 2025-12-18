@@ -274,3 +274,8 @@ An intermediate “Start Core Action” step (mapped to add_to_cart) was initial
 As a result, the intermediate step failed to provide meaningful behavioral separation. Its inclusion introduced systematic NULLs, added no explanatory power to activation pacing, and risked creating an artificial bottleneck not supported by actual user behavior.
 
 To preserve analytical integrity and ensure the funnel reflected observed user journeys rather than assumed ones, the step was intentionally removed. The refined funnel therefore focuses on the transitions that meaningfully influenced activation timing and decision-making.
+
+
+## A/B Testing
+
+Based on segment-level pacing analysis, A/B testing hypotheses focus on reducing post-discovery activation hesitation. Experiments are designed to reinforce value clarity, reduce perceived commitment risk, and clarify immediate next steps — with median time-to-activation as the primary success metric.
