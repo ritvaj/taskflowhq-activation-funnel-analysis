@@ -276,6 +276,80 @@ As a result, the intermediate step failed to provide meaningful behavioral separ
 To preserve analytical integrity and ensure the funnel reflected observed user journeys rather than assumed ones, the step was intentionally removed. The refined funnel therefore focuses on the transitions that meaningfully influenced activation timing and decision-making.
 
 
-## A/B Testing
 
-Based on segment-level pacing analysis, A/B testing hypotheses focus on reducing post-discovery activation hesitation. Experiments are designed to reinforce value clarity, reduce perceived commitment risk, and clarify immediate next steps — with median time-to-activation as the primary success metric.
+## 🧪 A/B Testing — Validating Post-Discovery Hesitation
+
+Based on funnel diagnostics and segmentation analysis, activation delays were found to concentrate **after feature discovery**, indicating user hesitation rather than early funnel drop-off. To demonstrate how such friction would be validated in a real product environment, a **simulated A/B testing framework** was applied.
+
+---
+
+### Hypothesis
+
+If value is reinforced immediately after feature discovery, then activation conversion will increase by reducing post-discovery hesitation.
+
+---
+
+### Null Hypothesis (H₀)
+
+There is no difference in activation conversion between Variant A and Variant B.
+
+---
+
+### Experiment Design
+
+- **Population:** Users who reached Feature Discovery  
+- **Variant Assignment:**  
+  - Variant A / Variant B assigned deterministically using a hash of `user_pseudo_id` to simulate random exposure  
+- **Primary Metric:** Activation conversion rate  
+- **Effect Size:** Absolute conversion difference (Δ%)  
+- **Statistical Test:** Chi-square test of independence  
+
+> **Note:** This is a simulated A/B test intended to demonstrate experimental design and statistical evaluation. No actual product change was deployed.
+
+---
+
+### Results — Activation Conversion by Variant
+
+| Variant    | Exposed Users | Activated Users | Activation Conversion |
+|-----------|---------------|-----------------|-----------------------|
+| Variant A | 102           | 5               | 4.90%                |
+| Variant B | 99            | 4               | 4.04%                |
+
+**Observed Effect Size (Δ):**  
++0.86 percentage points (Variant A − Variant B)
+
+---
+
+### Contingency Table
+
+| Variant    | Activated | Not Activated |
+|-----------|-----------|---------------|
+| Variant A | 5         | 97            |
+| Variant B | 4         | 95            |
+
+---
+
+### Statistical Significance
+
+A chi-square test of independence was conducted on the 2×2 contingency table.
+
+- **Chi-square statistic (χ²):** 0.087  
+- **Degrees of freedom:** 1  
+
+The test **failed to reject the null hypothesis**, indicating no statistically significant difference in activation conversion between Variant A and Variant B.
+
+Given the limited number of total activations (n = 9), the experiment is **underpowered**, and results should be interpreted as **inconclusive rather than negative**.
+
+> *In a production setting with low expected cell counts, Fisher’s Exact Test would be preferred; chi-square is shown here to demonstrate standard A/B evaluation methodology.*
+
+---
+
+### Product Interpretation
+
+While Variant A shows a small directional lift, the lack of statistical significance prevents any causal claims. The experiment demonstrates how post-discovery interventions would be validated in practice, reinforcing that **activation friction in this product is driven by hesitation rather than immediate funnel loss**.
+
+---
+
+### Key Takeaway
+
+This A/B test illustrates **correct experimental thinking**: hypothesis-driven design, appropriate metric selection, effect-size awareness, and conservative statistical interpretation — even when results are null.
