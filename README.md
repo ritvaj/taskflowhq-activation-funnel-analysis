@@ -254,9 +254,6 @@ If this were a live product, next steps would include:
 - Google BigQuery SQL Documentation  
   https://cloud.google.com/bigquery/docs/reference/standard-sql
 
-- Reforge — Activation & Early Retention (Conceptual Reference)  
-  https://www.reforge.com/blog/activation
-
 ---
 
 ## 👤 About Me
