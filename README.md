@@ -525,7 +525,7 @@ Collectively, these recommendations target the **behavioral root cause of activa
 
 ---
 ### Funnel Overview — Drop-off Concentration
-![Funnel Overview](visuals/funnel_overview.png)
+<img src="visuals/funnel_overview.png" width="700">
 
 **Insight:**  
 User drop-off increases sharply after onboarding and feature discovery, with a steep contraction before activation. This indicates that users are entering the product but failing to translate early exploration into committed usage, pointing to an activation clarity problem rather than an acquisition issue.
