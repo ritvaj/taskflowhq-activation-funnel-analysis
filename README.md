@@ -193,7 +193,7 @@ All recommendations are **incremental, testable**, and aligned with the diagnose
 ## Visuals
 
 *Note: Funnel counts were visualized directly in BigQuery to reflect raw event-level aggregation, while pacing, retention, and experimentation visuals were created using Python for finer control.*
-
+All generated figures are available in the [`visuals/`](visuals) directory.*
 ---
 
 ### Funnel Overview — Drop-off Concentration
@@ -256,11 +256,6 @@ If this were a live product, next steps would include:
 
 - Reforge — Activation & Early Retention (Conceptual Reference)  
   https://www.reforge.com/blog/activation
-
-
-- Google Analytics 4 Event Export Schema  
-- Google BigQuery SQL Documentation  
-- Industry best practices for SaaS activation and experimentation  
 
 ---
 
