@@ -524,6 +524,11 @@ Current data does not indicate these areas as meaningful contributors to activat
 Collectively, these recommendations target the **behavioral root cause of activation delay** and are designed to be incrementally testable without large-scale product redesign.
 
 ---
+
+# Visuals
+
+Note: Funnel counts were visualized directly in BigQuery to reflect raw event-level aggregation, while downstream pacing, retention, and experiment comparisons were visualized using Python (Matplotlib) for finer control.
+
 ### Funnel Overview — Drop-off Concentration
 <img src="visuals/funnel_overview.png" width="800"><br><br>
 
