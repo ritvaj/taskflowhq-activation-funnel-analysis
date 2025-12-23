@@ -525,25 +525,25 @@ Collectively, these recommendations target the **behavioral root cause of activa
 
 ---
 ### Funnel Overview — Drop-off Concentration
-<img src="visuals/funnel_overview.png" width="800">
+<img src="visuals/funnel_overview.png" width="800"><br><br>
 
 **Insight:**  
 User drop-off increases sharply after onboarding and feature discovery, with a steep contraction before activation. This indicates that users are entering the product but failing to translate early exploration into committed usage, pointing to an activation clarity problem rather than an acquisition issue.
 
 ### Median Time-to-Next-Step — Post-Discovery Hesitation
-![Median Time to Next Step](visuals/median_time_to_next_step.png)
+<img src="visuals/median_time_to_next_step.png" width="800"><br><br>
 
 **Insight:**  
 While users move quickly from onboarding to feature discovery, the median time from feature discovery to activation is disproportionately long. This gap highlights hesitation after initial exploration, suggesting uncertainty around next actions or insufficient perceived value to commit.
 
 ### Onboarding Cohort Retention (D1 / D3 / D7) — Weak Early Habit Formation
-![Onboarding Retention](visuals/onboarding_retention_d1_d3_d7.png)
+<img src="visuals/onboarding_retention_d1_d3_d7.png" width="800"><br><br>
 
 **Insight:**  
 Retention drops rapidly across Day 1, Day 3, and Day 7 for onboarded users, with fewer than 1% returning by Day 7. This indicates that most users disengage before forming a short-term habit, reinforcing the importance of reducing friction and accelerating value realization early in the funnel.
 
 ### A/B Activation Comparison — Correct Experiment Interpretation
-![A/B Activation Comparison](visuals/ab_activation_horizontal_bar.png)
+<img src="visuals/ab_activation_horizontal_bar.png" width="800"><br><br>
 
 **Insight:**  
 Activation rates between Variant A and Variant B show only a small directional difference and are not statistically significant. This outcome is expected in the absence of a real product intervention and demonstrates correct experimental evaluation rather than over-interpretation of random variation.
