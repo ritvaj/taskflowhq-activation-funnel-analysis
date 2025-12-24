@@ -54,20 +54,28 @@ The workflow below outlines how raw event data was progressively transformed int
 
 ## User Journey & Funnel Definition
 
+This section clarifies how a new user experiences the product and where we draw the line for meaningful activation.
+
 ### User Journey
 
-A new user:
+A typical new user flow looks like this:
+
 1. Opens TaskFlowHQ  
 2. Proceeds through onboarding or setup screens  
-3. Explores a core feature  
+3. Explores at least one core feature  
 4. Attempts to complete a task or workflow  
 5. Successfully completes a first meaningful action (activation)
 
+This sequence represents the minimum path required for a user to understand the product’s value.
+
 ### Activation Definition
 
-Activation represents the moment a user moves from passive exploration to active usage, demonstrating that the product can be applied to their own work.
+Activation is defined as the point where a user shifts from passive exploration to intentional use.  
+At this moment, the user demonstrates that TaskFlowHQ can be applied to a real task, not just browsed or tested superficially.
 
 ### Funnel Steps
+
+This section translates the abstract user journey into concrete, measurable funnel steps used for analysis.
 
 | Step | Description |
 |---|---|
@@ -80,6 +88,8 @@ Activation represents the moment a user moves from passive exploration to active
 An intermediate “Start Core Action” step was initially considered but removed after exploratory analysis showed it added no behavioral signal and introduced systematic NULLs. The refined funnel reflects observed user behavior rather than assumed intent.
 
 #### GA4 Event Mapping (Reference)
+
+This table serves as a compact reference showing how raw GA4 events are translated into product-level funnel steps.
 
 | GA4 Event | Product Interpretation |
 |----------|------------------------|
