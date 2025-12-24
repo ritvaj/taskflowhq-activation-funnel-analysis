@@ -183,8 +183,9 @@ In this analysis, variants were assigned using a deterministic split (odd and ev
 
 ## Root Cause Analysis (RCA)
 
-### Primary Finding
+This section isolates the underlying cause of activation drop-off using observed user behavior.
 
+### Primary Finding
 Activation friction is driven by **post-discovery hesitation**, not early funnel drop-off.
 
 ### What the Data Shows
@@ -203,6 +204,8 @@ A **decision-confidence and value-clarity gap** immediately after feature discov
 ---
 
 ## Recommendations
+
+These recommendations target the post-discovery hesitation identified in the analysis and are ordered by expected impact.
 
 ### Priority 1: Reinforce Value Immediately After Discovery
 - Explicitly communicate outcomes and benefits  
@@ -266,6 +269,7 @@ Taken together, the visuals show that the primary opportunity lies in reducing p
 
 ## Future Work / Next Steps
 
+This section outlines how the analysis would be extended if TaskFlowHQ were a live, evolving product.
 If this were a live product, next steps would include:
 
 - Testing post-discovery value reinforcement via controlled experiments.  
