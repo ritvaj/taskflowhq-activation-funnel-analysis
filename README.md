@@ -74,6 +74,15 @@ Activation represents the moment a user moves from passive exploration to active
 **Funnel refinement note:**  
 An intermediate “Start Core Action” step was initially considered but removed after exploratory analysis showed it added no behavioral signal and introduced systematic NULLs. The refined funnel reflects observed user behavior rather than assumed intent.
 
+#### GA4 Event Mapping (Reference)
+
+| GA4 Event | Product Interpretation |
+|----------|------------------------|
+| session_start | App Open |
+| page_view (login / home) | Onboarding |
+| view_item | Feature Discovery |
+| purchase | Activation |
+
 ---
 
 ## Data & Tools
