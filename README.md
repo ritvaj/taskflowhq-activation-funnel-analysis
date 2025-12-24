@@ -120,6 +120,8 @@ This table serves as a compact reference showing how raw GA4 events are translat
 
 ## KPI Framework
 
+This section defines the core metrics used to evaluate activation quality, user friction, and early retention.
+
 ### Activation & Funnel Metrics
 
 - **Activation Rate:** 4.5%  
@@ -133,7 +135,9 @@ This table serves as a compact reference showing how raw GA4 events are translat
 ### Pacing & Friction
 
 - Median time (Onboarding → Feature Discovery): **74s**  
-- Median time (Feature Discovery → Activation): **727s (~12 min)**  
+- Median time (Feature Discovery → Activation): **727s (~12 min)**
+
+The sharp increase in time after feature discovery signals hesitation rather than navigational friction.
 
 ### Retention (Onboarding Cohort)
 
@@ -141,13 +145,13 @@ This table serves as a compact reference showing how raw GA4 events are translat
 - Day 3: **2.8%**  
 - Day 7: **0.8%**
 
-Retention drops sharply after onboarding, indicating weak early habit formation.
+Retention drops steeply immediately after onboarding, indicating weak early habit formation and low short-term stickiness.
 
 ---
 
 ## Segmentation: Activation Speed
 
-Activated users were segmented based on **time-to-activation**.
+To understand whether friction is driven by usability issues or user hesitation, activated users were segmented by time-to-activation.
 
 | Segment | Users | Share |
 |---|---|---|
@@ -156,7 +160,8 @@ Activated users were segmented based on **time-to-activation**.
 
 **Key Insight:**  
 Slow Activators do not struggle with onboarding or navigation. Their friction emerges **after feature discovery**, indicating hesitation rather than inability.
-Notably, prolonged hesitation among users who eventually activate suggests that similar post-discovery friction may be preventing other users from activating at all, making this stage a high-leverage intervention point.
+
+The extended delay among users who eventually activate suggests that the same post-discovery friction is likely blocking many other users entirely, making this stage a high-leverage point for intervention.
 
 ---
 
