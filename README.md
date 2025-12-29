@@ -1,5 +1,7 @@
 <h1 align="center">TaskFlowHQ: Diagnosing Activation Funnel Drop-Off & Hesitation</h1>
 
+
+
 ## Overview
 
 This project examines how new users move from initial exploration to meaningful usage in a B2B SaaS product, and where that journey breaks down.
