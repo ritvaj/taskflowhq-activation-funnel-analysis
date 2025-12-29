@@ -26,29 +26,32 @@ Activation is critical because it represents the moment users transition from ex
 
 ## Objectives
 
-These objectives define the questions the analysis is designed to answer and ensure the work remains decision-focused rather than exploratory.
+These objectives define the key questions guiding the analysis and ensure the work stays focused on real product decisions rather than open-ended exploration.
 
 This project aims to:
 
-- Quantify where activation drop-off occurs in the onboarding funnel  
-- Identify whether friction is structural (onboarding or navigation) or behavioral (hesitation, uncertainty)  
-- Measure time-based friction for users who do activate  
-- Validate findings through segmentation and experimentation logic  
-- Translate insights into practical, testable product recommendations  
+- Identify where and why users drop off before reaching activation.
+- Distinguish between structural friction (users being blocked by onboarding or navigation) and behavioral friction (users hesitating despite being able to proceed).
+- Measure how long users take to move between key steps, not just whether they convert.
+- Use segmentation and experimentation logic to validate hypotheses, not just describe patterns.
+- Translate insights into practical, testable product recommendations.
 
 ---
 
 ## Analysis Workflow
 
-The workflow below outlines how raw event data was progressively transformed into behavioral insights and product recommendations.
+The workflow below outlines how raw GA4 event data was translated into a B2B SaaS activation diagnosis and product recommendations:
 
-1. Worked with raw GA4 event-level tables in BigQuery
-2. Constructed user-level funnel and activation tables  
-3. Analyzed funnel conversion and time-to-next-step metrics  
-4. Segmented activated users by activation speed  
-5. Evaluated retention using onboarding cohorts  
-6. Simulated an A/B testing framework to validate hypotheses  
-7. Conducted root cause analysis and derived recommendations
+1. Started with raw GA4 event-level tables in BigQuery to understand what user actions were available.
+2. Audited and validated events, then mapped GA4 events to B2B SaaS user actions (app open, onboarding, feature discovery, activation).
+3. Constructed a user-level activation funnel by anchoring each step to the first valid event timestamp after the previous step.
+4. Measured conversion and drop-off at each funnel stage to identify where users disengage.
+5. Analyzed time-to-next-step metrics to detect post-discovery hesitation among users who did activate.
+6. Evaluated early retention for the onboarding cohort to assess whether unresolved activation friction leads to weak habit formation and early churn.
+7. Segmented activated users by activation speed to separate usability issues from decision friction.
+8. Simulated an A/B testing framework to demonstrate how post-discovery improvements could be validated.
+9. Created supporting visuals to clearly communicate funnel behavior, hesitation patterns, retention decay, and experimental outcome.
+10. Conducted root cause analysis and translated findings into actionable, testable product recommendations.
 
 ---
 
