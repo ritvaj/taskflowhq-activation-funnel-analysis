@@ -269,22 +269,20 @@ Retention declines sharply across Day 1, Day 3, and Day 7, with fewer than 1% of
 **Insight:**  
 Activation conversion differs only marginally between Variant A and Variant B and is not statistically significant. Given the absence of a real product intervention and limited sample size, this result is expected and demonstrates correct experimental interpretation rather than over-reading random variation.
 
-
-### Synthesis
-
+### Final Insight
 Taken together, the visuals show that the primary opportunity lies after feature discovery, where sharp drop-off and prolonged hesitation combine to suppress activation and undermine early retention.
+
 ---
 
 ## Future Work / Next Steps
 
-This section outlines how the analysis would be extended if TaskFlowHQ were a live, evolving product.
-If this were a live product, next steps would include:
+If TaskFlowHQ were a live product, this analysis would be extended in the following ways:
 
-- Testing post-discovery value reinforcement via controlled experiments.  
-- Measuring reductions in **time-to-activation**, not just conversion.  
-- Extending retention analysis across rolling cohorts.  
-- Instrumenting missing core-action events to close data gaps.  
-- Increasing sample size and experiment exposure to enable statistically powered A/B testing.
+- Run controlled experiments to test post-discovery value reinforcement and measure impact on both activation rate and time-to-activation.  
+- Evaluate whether faster activation causally improves early retention by comparing retention curves for activated vs non-activated users.
+- Expand retention analysis beyond a single onboarding cohort to rolling and feature-based cohorts.
+- Instrument missing or ambiguous core-action events to improve activation measurement fidelity. 
+- Increase experiment exposure and sample size to enable statistically powered A/B testing and reliable inference.
 
 ---
 
