@@ -1,3 +1,7 @@
+-- A/B Simulation: Post-Discovery Activation
+-- Users are deterministically split into Variant A and B after feature discovery
+-- using a hash-based odd/even assignment on user_pseudo_id.
+
 SELECT
   CASE
     WHEN MOD(ABS(FARM_FINGERPRINT(f.user_pseudo_id)), 2) = 0 THEN 'Variant A'
