@@ -1,4 +1,4 @@
-# TaskFlowHQ: Diagnosing Activation Funnel Drop-Off & Hesitation
+<h1 align="center">TaskFlowHQ: Diagnosing Activation Funnel Drop-Off & Hesitation</h1>
 
 ## Overview
 
