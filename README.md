@@ -183,7 +183,7 @@ The prolonged delay among users who eventually activate suggests that the same p
 
 ---
 
-## A/B Testing: Validating Post-Discovery Hesitation
+## A/B Testing: Evaluating Value Reinforcement to Reduce Post-Discovery Friction
 
 This section demonstrates how experimentation logic will be used to evaluate whether reinforcing value after feature discovery reduces activation friction.
 
