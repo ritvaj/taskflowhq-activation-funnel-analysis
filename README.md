@@ -111,8 +111,8 @@ This table serves as a compact reference showing how raw GA4 events are translat
 ## Data & Tools
 
 ### Tools Used
-- **BigQuery** (GA4 event-level exports)  
-- **SQL** (funnel construction, retention cohorts, segmentation, experimentation)  
+- **BigQuery** (GA4 event-level data)  
+- **SQL** (funnel construction, retention cohort, segmentation, experiment logic)  
 - **Python (Matplotlib)** for custom visualizations  
 
 ### Skills Applied
