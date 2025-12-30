@@ -1,4 +1,4 @@
-<h1 align="center">TaskFlowHQ: Diagnosing Drop-Off and Hesitation Before Activation</h1>
+<h1 align="center">TaskFlowHQ: Diagnosing Drop-Off & Hesitation Before Activation</h1>
 
 
 
