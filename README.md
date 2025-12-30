@@ -128,32 +128,37 @@ The table below shows how raw GA4 events were mapped to product-level funnel ste
 
 ## KPI Framework
 
-This section defines the core metrics used to evaluate activation quality, user friction, and early retention.
+This section defines the core metrics used to evaluate activation performance, user friction, and early retention behavior.
 
-### Activation & Funnel Metrics
+### Activation & Funnel Loss
 
-- **Activation Rate:** 4.5%  
-- **Feature Discovery Rate:** 33.3%  
+**Step-level drop-off rates:**
+- App Open → Onboarding: 74.2% drop-off
+- Onboarding → Feature Discovery: 66.7% drop-off
+- Feature Discovery → Activation: 95.5% drop-off
 
-**Key Conversion Rates:**
-- App Open → Onboarding: 25.8%  
-- Onboarding → Feature Discovery: 33.3%  
-- Feature Discovery → Activation: 4.5%  
+**Overall activation and progression rates:**
+- **Feature Discovery Reach:** 33.3%
+- **Activation Completion:** 4.5%  
+
+These metrics highlight a sharp drop between feature discovery and activation, which becomes the primary focus of deeper analysis in later sections.
 
 ### Pacing & Friction
 
+**Median time between key steps:**
 - Median time (Onboarding → Feature Discovery): **74s**  
 - Median time (Feature Discovery → Activation): **727s (~12 min)**
 
-The steep user drop-off between feature discovery and activation, combined with the sharp increase in time after feature discovery among successful users, suggests that decision hesitation is not only slowing conversion but also driving abandonment at this stage.
+The substantial increase in time after feature discovery indicates elevated friction during the final activation step. Time-based patterns are analyzed further to distinguish structural barriers from user hesitation.
 
 ### Retention (Onboarding Cohort)
 
+Short-term retention rates for users who reached onboarding:
 - Day 1: **8.5%**  
 - Day 3: **2.8%**  
 - Day 7: **0.8%**
 
-Retention drops steeply immediately after onboarding, indicating weak early habit formation and low short-term stickiness.
+Retention declines sharply within the first few days, suggesting weak early habit formation and limited short-term stickiness following initial product exposure.
 
 ---
 
