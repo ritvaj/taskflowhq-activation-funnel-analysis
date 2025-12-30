@@ -185,17 +185,43 @@ The prolonged delay among users who eventually activate suggests that the same p
 
 ## A/B Testing: Validating Post-Discovery Hesitation
 
-An A/B test framework is used to evaluate whether reinforcing value post-discovery increases activation.
+This section demonstrates how experimentation logic will be used to evaluate whether reinforcing value after feature discovery reduces activation friction.
 
-- **Hypothesis:** Reinforcing value post-discovery increases activation  
+### Hypothesis
+
+- **Hypothesis:** Reinforcing value post-discovery improves activation and reduces hesitation  
 - **Null Hypothesis:** No difference between variants  
-- **Metric:** Activation conversion  
-- **Test:** Chi-square (χ² = 0.087, df = 1)
 
-**Result:**  
-The null hypothesis was not rejected. With only 9 total activations, the experiment is **underpowered** and results are **inconclusive**, not negative.
+### Experiment Setup
 
-In this analysis, variants were assigned using a deterministic split (odd and even) to illustrate evaluation logic. In a production setting, users would be randomly assigned to a control experience and a modified post-discovery experience, with activation compared across the two variants over a fixed exposure window.
+Users were deterministically split for analytical demonstration:
+
+- **Variant A:** Reinforced value after feature discovery  
+- **Variant B:** Baseline experience  
+
+In production, users would be randomly assigned over a fixed exposure window.
+
+### Results
+
+**Primary metric: Activation rate**
+
+- χ² = 0.087, df = 1  
+- p-value = 0.77  
+
+With only 9 total activations, the test is underpowered and the null hypothesis is not rejected.
+
+**Secondary metric: Time to activation**
+
+| Metric | Variant A | Variant B |
+|---|---:|---:|
+| Activation Rate | 4.9% | 4.0% |
+| Median Time to Activation | 6.3 min | 12.2 min |
+
+Variant A shows a substantially lower median time to activation, indicating reduced post-discovery hesitation among users who do convert.
+
+### Decision
+
+Activation lift is inconclusive due to small sample size, but the reinforced experience shows directionally faster activation. This variant is worth iterating and re-testing with larger exposure, focusing on clearer next actions after feature discovery.
 
 ---
 
