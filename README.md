@@ -37,7 +37,8 @@ This project aims to:
 - Identify where and why users drop off before reaching activation.
 - Distinguish between structural friction (users being blocked by onboarding or navigation) and behavioral friction (users hesitating despite being able to proceed).
 - Measure how long users take to move between key steps, not just whether they convert.
-- Use segmentation and experimentation logic to validate hypotheses, not just describe patterns.
+- Use segmentation and A/B testing to validate hypotheses, not just describe patterns.
+- Isolate the primary root causes behind activation failure based on the observed data.
 - Translate insights into practical, testable product recommendations.
 
 ---
