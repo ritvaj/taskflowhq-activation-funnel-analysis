@@ -8,7 +8,7 @@ This project examines how new users move from initial exploration to meaningful 
 
 TaskFlowHQ is a simulated B2B SaaS productivity tool designed to help individuals and teams plan, track, and complete work through structured tasks and workflows.
 
-The analysis focuses on new-user onboarding and activation behavior using GA4 event data in BigQuery, diagnosing activation drop-off and post-discovery hesitation, and examining how the two interact to suppress conversion and early retention.
+This analysis focuses on new-user onboarding and their activation behavior using GA4 event data in BigQuery (GCP), diagnosing activation drop-off and post-feature discovery hesitation, and examining how the two interact to suppress conversion and early retention.
 
 ---
 
