@@ -183,14 +183,14 @@ The prolonged delay among users who eventually activate suggests that the same p
 
 ---
 
-## A/B Testing: Evaluating Value Reinforcement to Reduce Post-Discovery Friction
+## A/B Testing: Evaluating Post-Discovery Value Reinforcement
 
-This section demonstrates how experimentation logic will be used to evaluate whether reinforcing value after feature discovery reduces activation friction.
+This section evaluates whether reinforcing value immediately after feature discovery reduces activation friction using a simulated A/B testing framework.
 
 ### Hypothesis
 
-- **Hypothesis:** Reinforcing value post-discovery improves activation and reduces hesitation  
-- **Null Hypothesis:** No difference between variants  
+- Reinforcing value post-discovery improves activation and reduces hesitation  
+- Null hypothesis: No difference between variants  
 
 ### Experiment Setup
 
@@ -199,29 +199,24 @@ Users were deterministically split for analytical demonstration:
 - **Variant A:** Reinforced value after feature discovery  
 - **Variant B:** Baseline experience  
 
-In production, users would be randomly assigned over a fixed exposure window.
-
 ### Results
 
-**Primary metric: Activation rate**
+**Activation rate**
 
-- χ² = 0.087, df = 1  
-- p-value = 0.77  
+- Variant A: 4.9%  
+- Variant B: 4.0%  
+- Absolute lift: +0.9 percentage points  
+- Relative lift: ~+22%
 
-With only 9 total activations, the test is underpowered and the null hypothesis is not rejected.
+A chi-square test (χ² = 0.087, df = 1, p = 0.77) failed to reject the null hypothesis. With only 9 total activations, the result is underpowered, and the observed difference is driven by a single user.
 
-**Secondary metric: Time to activation**
+**Time to activation**
 
-| Metric | Variant A | Variant B |
-|---|---:|---:|
-| Activation Rate | 4.9% | 4.0% |
-| Median Time to Activation | 6.3 min | 12.2 min |
-
-Variant A shows a substantially lower median time to activation, indicating reduced post-discovery hesitation among users who do convert.
+Among users who did activate, Variant A shows a substantially lower median time to activation (6.3 min vs 12.2 min), indicating reduced post-discovery hesitation.
 
 ### Decision
 
-Activation lift is inconclusive due to small sample size, but the reinforced experience shows directionally faster activation. This variant is worth iterating and re-testing with larger exposure, focusing on clearer next actions after feature discovery.
+Activation lift is inconclusive and directional, not proof. However, faster activation under the reinforced variant suggests improved experience quality. This change is worth iterating and re-testing with larger exposure, focusing on clearer next actions after feature discovery.
 
 ---
 
