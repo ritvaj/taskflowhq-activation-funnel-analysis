@@ -164,7 +164,11 @@ Retention declines sharply within the first few days, suggesting weak early habi
 
 ## Segmentation: Activation Speed
 
-To understand whether friction is driven by usability issues or user hesitation, activated users were segmented by time-to-activation.
+To understand whether post-discovery friction reflects usability constraints or user hesitation, activated users were segmented based on time-to-activation.
+
+Activated users were split using the median Feature Discovery → Activation time (727 seconds) as the threshold:
+- Fast Activators: Activated in ≤ 727 seconds
+- Slow Activators: Activated in > 727 seconds
 
 | Segment | Users | Share |
 |---|---|---|
@@ -172,9 +176,10 @@ To understand whether friction is driven by usability issues or user hesitation,
 | Slow Activators | 5 | 56% |
 
 **Key Insight:**  
-Slow Activators do not struggle with onboarding or navigation. Their friction emerges **after feature discovery**, indicating hesitation rather than inability.
+Key Insight:
+Slow Activators do not exhibit difficulty with onboarding or navigation. Their friction emerges after feature discovery, indicating hesitation rather than inability to proceed.
 
-The extended delay among users who eventually activate suggests that the same post-discovery friction is likely blocking many other users entirely, making this stage a high-leverage point for intervention.
+The prolonged delay among users who eventually activate suggests that the same post-discovery friction may also be contributing to abandonment among non-activating users, making this stage a high-leverage point for intervention.
 
 ---
 
