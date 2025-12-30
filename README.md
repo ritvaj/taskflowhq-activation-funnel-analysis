@@ -230,7 +230,7 @@ Activation friction is driven by a sharp drop-off between feature discovery and 
 
 **Hypothesis:** The same post-discovery hesitation that delays activation for some users is also contributing to abandonment among others, making this stage a critical point of failure.
 
-Retention analysis reinforces the severity of this friction. Users who fail to activate quickly also fail to return, with onboarding cohort retention dropping to 8.5% on Day 1 and below 1% by Day 7. This suggests that unresolved post-discovery hesitation is associated with early disengagement and weak habit formation.
+Retention analysis reinforces the severity of this friction. Users who fail to activate do not return to re-engage, with onboarding cohort retention falling to 8.5% on Day 1 and below 1% by Day 7. This pattern suggests that unresolved post-discovery hesitation reflects a decision-confidence gap, where uncertainty at the activation moment leads to early disengagement rather than delayed adoption.
 
 ### What the Data Shows
 
