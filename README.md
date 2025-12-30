@@ -252,24 +252,45 @@ A decision-confidence and value-clarity gap immediately after feature discovery.
 
 ## Recommendations
 
-These recommendations target post-discovery friction, where sharp drop-off and prolonged hesitation converge. They are ordered by expected impact and designed to be incremental and testable through controlled experiments.
+These recommendations target post-discovery friction, where sharp drop-off and prolonged hesitation converge. They are ordered by expected impact and designed to be incremental, testable, and directly aligned with the root cause identified in the analysis.
 
 ### Priority 1: Reinforce Value Immediately After Discovery
 
-- Explicitly communicate outcomes and benefits  
-- Emphasize value realization over feature explanation  
+**Goal:** Help users feel progress and value before asking for commitment.
+
+Examples:
+- Show a **“First Win” badge** or XP points when a user completes a small setup step or mini task  
+- Surface outcome-focused feedback such as:  
+  *“You just saved 15 minutes on your next task”* 
+
+The intent is to make value visible and immediate, reducing uncertainty right after discovery.
 
 ### Priority 2: Reduce Perceived Commitment
 
-- Signal low effort and reversibility  
-- Reduce perceived risk at the activation moment  
+**Goal:** Lower the psychological cost of saying “yes” to activation.
+
+Examples: 
+- Explicitly signal reversibility with copy such as:  
+  *“Cancel anytime. No setup risk.”*  
+- Frame activation as a trial rather than a decision, e.g.  
+  *“Try your first workflow”* instead of *“Start using TaskFlowHQ”*
+
+The intent is to make activation feel like testing, not choosing.
 
 ### Priority 3: Clarify the Immediate Next Step
 
-- Provide a single, explicit recommended action  
-- Reduce ambiguity between discovery and execution  
+**Goal:** Remove ambiguity between discovery and execution.
 
-All recommendations directly address the post-discovery decision gap identified in the analysis and are intended to improve both activation quality and early retention.
+Examples: 
+- Avoid multiple equal options at this stage  
+- Replace open-ended exploration with guidance, e.g.  
+  *“Most users start here”*
+
+The intent is to reduce decision paralysis by clearly signaling what to do next.
+
+---
+
+All recommendations directly address the post-discovery decision-confidence and value-clarity gap identified in the analysis and are suitable for validation through controlled experiments.
 
 ---
 
