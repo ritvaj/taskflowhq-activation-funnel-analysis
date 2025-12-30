@@ -222,48 +222,54 @@ Activation lift is inconclusive and directional, not proof. However, faster acti
 
 ## Root Cause Analysis (RCA)
 
-This section isolates the underlying cause of activation drop-off using observed user behavior.
+This section isolates the primary driver of activation drop-off using observed user behavior across funnel progression, timing, and retention.
 
 ### Primary Finding
 
-Activation friction is driven by: a sharp drop-off between feature discovery and activation, and prolonged hesitation among users who do eventually activate.
-**Hypothesis**: The same post-discovery hesitation that delays activation for some users is also causing many others to drop off entirely, contributing directly to early churn.
+Activation friction is driven by a sharp drop-off between feature discovery and activation, combined with prolonged hesitation among users who do eventually activate.
 
-Retention analysis reinforces the severity of this friction. Users who fail to activate quickly also fail to return, with onboarding cohort retention dropping to 8.5% on Day 1 and below 1% by Day 7. This indicates that unresolved post-discovery hesitation does not merely delay activation, but contributes directly to early disengagement and weak habit formation.
+**Hypothesis:** The same post-discovery hesitation that delays activation for some users is also contributing to abandonment among others, making this stage a critical point of failure.
+
+Retention analysis reinforces the severity of this friction. Users who fail to activate quickly also fail to return, with onboarding cohort retention dropping to 8.5% on Day 1 and below 1% by Day 7. This suggests that unresolved post-discovery hesitation is associated with early disengagement and weak habit formation.
 
 ### What the Data Shows
-- Users reach onboarding and feature discovery reliably  
-- Activation often occurs, but **after long delays**  
-- Fast and Slow Activators differ mainly in **decision speed**, not capability  
 
-### What This Is NOT
+- Users reliably reach onboarding and feature discovery  
+- Activation often occurs, but only after extended delays  
+- Fast and Slow Activators differ primarily in decision speed, not capability  
+
+### What This Is Not
+
 - Not an onboarding usability problem  
 - Not a navigation issue  
 - Not a discoverability failure  
 
-**Root Cause:**  
-A **decision-confidence and value-clarity gap** immediately after feature discovery.
+### Root Cause
+
+A decision-confidence and value-clarity gap immediately after feature discovery.
 
 ---
 
 ## Recommendations
 
-These recommendations target the post-discovery friction identified in the analysis, where sharp drop-off and prolonged hesitation converge, and are ordered by expected impact.
-Because post-discovery hesitation both suppresses activation and accelerates early churn, interventions at this stage have disproportionate impact. Improving value clarity and decision confidence immediately after feature discovery addresses not only conversion loss, but also weak early retention.
+These recommendations target post-discovery friction, where sharp drop-off and prolonged hesitation converge. They are ordered by expected impact and designed to be incremental and testable through controlled experiments.
 
 ### Priority 1: Reinforce Value Immediately After Discovery
+
 - Explicitly communicate outcomes and benefits  
-- Focus on value, not features  
+- Emphasize value realization over feature explanation  
 
 ### Priority 2: Reduce Perceived Commitment
+
 - Signal low effort and reversibility  
 - Reduce perceived risk at the activation moment  
 
 ### Priority 3: Clarify the Immediate Next Step
+
 - Provide a single, explicit recommended action  
 - Reduce ambiguity between discovery and execution  
 
-All recommendations are incremental, testable through controlled experiments, and directly target the post-discovery friction identified in the analysis.
+All recommendations directly address the post-discovery decision gap identified in the analysis and are intended to improve both activation quality and early retention.
 
 ---
 
