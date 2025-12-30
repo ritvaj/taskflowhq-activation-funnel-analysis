@@ -296,7 +296,7 @@ All recommendations directly address the post-discovery decision-confidence and 
 All generated figures are available in the [`visuals/`](visuals) directory.
 
 
-### Funnel Overview — Drop-off Concentration
+### Funnel Overview - Drop-off Concentration
 <img src="visuals/funnel_overview.png" width="800"><br><br>
 
 **Insight:**  
@@ -304,7 +304,7 @@ Drop-off accelerates sharply after onboarding and feature discovery, with a stee
 
 ---
 
-### Median Time-to-Next-Step — Post-Discovery Hesitation
+### Median Time-to-Next-Step - Post-Discovery Hesitation
 <img src="visuals/median_time_to_next_step.png" width="800"><br><br>
 
 **Insight:**  
@@ -312,7 +312,7 @@ Users move quickly from onboarding to feature discovery, but the median time fro
 
 ---
 
-### Onboarding Cohort Retention (D1 / D3 / D7) — Weak Early Habit Formation
+### Onboarding Cohort Retention (D1 / D3 / D7) - Weak Early Habit Formation
 <img src="visuals/onboarding_retention_d1_d3_d7.png" width="800"><br><br>
 
 **Insight:**  
@@ -320,7 +320,7 @@ Retention declines sharply across Day 1, Day 3, and Day 7, with fewer than 1% of
 
 ---
 
-### A/B Activation Comparison — Correct Experiment Interpretation
+### A/B Activation Comparison - Correct Experiment Interpretation
 <img src="visuals/ab_activation_horizontal_bar.png" width="800"><br><br>
 
 **Insight:**  
